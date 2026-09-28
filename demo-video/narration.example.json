@@ -1,0 +1,25 @@
+{
+  "voice": "en-US-AriaNeural",
+  "note": "One entry per shot id from the shot list. Write these AFTER watching the takes: every number or label said here has to be on screen in that shot, or the voice is describing a video that does not exist.",
+  "shots": [
+    {
+      "id": "00",
+      "card": {
+        "title": "What this is",
+        "lines": [
+          "A title card, rendered — not recorded",
+          "Two lines is what fits"
+        ]
+      },
+      "text": "A card shot has no take: the renderer draws it and holds it for as long as this sentence takes."
+    },
+    {
+      "id": "01",
+      "text": "A take's narration plays over its own footage. If the voice outlasts the take, its last frame is held."
+    },
+    {
+      "id": "02",
+      "text": "Say what the viewer is watching happen, in the order it happens."
+    }
+  ]
+}
